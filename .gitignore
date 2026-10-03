@@ -1,0 +1,15 @@
+# Ignorer tous les fichiers
+*
+*.o
+*.exe
+
+# Mais ne pas ignorer les dossiers (sinon Git ne regarde pas dedans)
+!*/
+
+# Garder les fichiers qui ont une extension
+!*.*
+
+# Exceptions : fichiers utiles sans extension
+!Makefile
+!README
+!LICENSE
