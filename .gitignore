@@ -2,6 +2,9 @@
 *
 *.o
 *.exe
+*.swp
+*.swo
+*.swn
 
 # Mais ne pas ignorer les dossiers (sinon Git ne regarde pas dedans)
 !*/
